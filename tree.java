@@ -33,6 +33,7 @@ public class tree implements TreeSelectionListener{
 		t.addTreeSelectionListener(this);
 	}
 	public static void main(String[] args){
+		System.out.println("Hi git");
 		SwingUtilities.invokeLater(new Runnable(){
 			public void run(){
 				new tree();
